@@ -91,7 +91,31 @@ The Elaborated Design:-
 
 ![image](https://github.com/aryapandit200408/FSMs_in_Verilog/assets/115896451/3c23cacb-762d-4b43-a9b5-ae3b8ba739a0)
 
-<b>Testing for Functional Coveage:-</b>
+The Top Module:- (Connecting CU and LU)
+
+Code:-
+```
+`timescale 1ns / 1ps
+
+module final(
+    input [3:0]X,
+    input clk,
+    input st,
+    input rst,
+    output [4:1]Zee,
+    inout S,
+    inout [4:1]T
+    );
+    FSM_OneHot ControlUnit(S, clk, st, rst, T[4:1]);
+    top LogicUnit(X[3:0], T[4:1], clk, st, rst, S, Zee[4:1]);
+endmodule
+```
+
+Elaborated Design:-
+
+![image](https://github.com/aryapandit200408/FSMs_in_Verilog/assets/115896451/ce856c24-65fc-458f-8a1a-e36a50d7336c)
+
+<b>Testing for Functional Coveage (Using Behavioral Simulations):-</b>
 
 Testbench Code:-
 

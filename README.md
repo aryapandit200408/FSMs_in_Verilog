@@ -92,6 +92,44 @@ The Elaborated Design:-
 
 <b>Testing for Functional Coveage:-</b>
 
+Testbench Code:-
+
+```
+`timescale 1ns / 1ps
+
+module tb_fsm();
+    reg [3:0]X;
+    reg clk;
+    reg set=1;
+    reg rst=0;
+    wire [4:1]Z;
+    wire S;
+    wire [4:1]T;
+    
+    final DUT(X[3:0], clk, set, rst, Z[4:1], S, T[4:1]);
+    initial begin
+    clk=1'b0;
+    forever  begin  
+    #10; 
+    clk = ~clk;
+    end
+    end
+    
+    initial begin
+    X <= 4'b0101;   
+    #45
+    set <= 1;
+    rst <= 1;
+    #150
+    X <= 4'b0000; 
+    #150
+    X <= 4'b1000;  
+    end
+endmodule
+```
+
+Running Simulations:-
+
 ![image](https://github.com/aryapandit200408/FSMs_in_Verilog/assets/115896451/2d9b8e65-fcd8-4538-a0e7-110a58123ae8)
 
 <b>Conclusion:-</b> The design has achieved functional coverage!!!

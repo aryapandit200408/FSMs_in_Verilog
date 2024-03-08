@@ -19,8 +19,11 @@ Detailed Explaination of the program steps:-
 4. At state T3 a conditional jump occurs if S is 1 after step 2 then we jump to state T4 or if S is 0 we jump to state T1
 5. At state T4 a bus transfer takes place where contents of register R is put on the bus Z and we go back to state T1
 
+<div align="center">
 ![image](https://github.com/aryapandit200408/FSMs_in_Verilog/assets/115896451/c812b4eb-e2d2-45a2-a83f-3342fa554106)
+
 An illustration of the FSM
+</div>
 
 For this purpose we employ one hot encoding scheme. Let the states be T1, T2, T3, T4 etc
 

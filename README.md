@@ -22,6 +22,7 @@ Given RTL Program Steps:-
 <div align="center">
   
   ![image](https://github.com/aryapandit200408/FSMs_in_Verilog/assets/115896451/c812b4eb-e2d2-45a2-a83f-3342fa554106)
+
 An illustration of the FSM
 </div>
 

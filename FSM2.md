@@ -30,7 +30,7 @@ We seperate athe design into a Control Unit (FSM) and Logic Unit. The Control Un
 The Control Unit:
 
 Code:-
-```
+```verilog
 `timescale 1ns / 1ps
 module FSM(
     input a,
@@ -68,7 +68,7 @@ The Elaborated Design:-
 The Logic Unit:
 
 Code:-
-```
+```verilog
 `timescale 1ns / 1ps
 module RShiftLU(
     input [3:0]X,
@@ -160,7 +160,7 @@ The Elaborated Design:-
 The Top Module:- (Connecting CU and LU)
 
 Code:-
-```
+```verilog
 `timescale 1ns / 1ps
 module final(
     input a,         // Control unit Input
@@ -188,7 +188,7 @@ Elaborated Design:-
 
 Testbench Code:-
 
-```
+```verilog
 `timescale 1ns / 1ps
 module tb_fsm();
     reg a;

@@ -30,7 +30,7 @@ We seperate athe design into a Control Unit (FSM) and Logic Unit. The Control Un
 The Control Unit:
 
 Code:-
-```verilog
+```
 `timescale 1ns / 1ps
 module FSM(
     input a,

@@ -1,4 +1,4 @@
-## FSM 1:-
+## FSM 1: Simple FSM Design from RTL Notation in Verilog 
 
 <b>Aim</b>: To design and implement a digital system whose RTL Program is given
 

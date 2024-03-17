@@ -192,7 +192,8 @@ endmodule
 
 Running Simulations:-
 
-![image](https://github.com/aryapandit200408/FSMs_in_Verilog/assets/115896451/c61ffb90-57c5-4b38-b0d2-93e340ca6960)
+![image](https://github.com/aryapandit200408/FSMs_in_Verilog/assets/115896451/6ffeb9f5-d1d2-438d-b8ed-1bcf9492f256)
+
 
 
 

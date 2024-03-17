@@ -15,7 +15,8 @@ Perform the following:
 
 <div align="center">
 
-![image](https://github.com/aryapandit200408/system_design_in_verilog/assets/115896451/e6cc4b1e-93ac-400c-97d4-b31a1fd2dba6)
+![image](https://github.com/aryapandit200408/FSMs_in_Verilog/assets/115896451/849b43e2-01fe-49c0-aa70-8730b2e21aa1)
+
 
 An illustration of the Machine in NM Multisim 14
 </div>
@@ -89,7 +90,8 @@ endmodule
 
 The Elaborated Design:-
 
-![image](https://github.com/aryapandit200408/system_design_in_verilog/assets/115896451/fb141558-a24e-40e7-98b9-cedf9654f482)
+![image](https://github.com/aryapandit200408/FSMs_in_Verilog/assets/115896451/91edae0d-385c-49f9-a0b6-16450c0b2c38)
+
 
 
 
@@ -124,8 +126,7 @@ endmodule
 ```
 The Elaborated Design:-
 
-![image](https://github.com/aryapandit200408/system_design_in_verilog/assets/115896451/8c57d60c-b936-428d-b93b-9043a3683783)
-
+![image](https://github.com/aryapandit200408/FSMs_in_Verilog/assets/115896451/6e5f385f-4611-4e08-828f-ed7530f413d7)
 
 
 <b>Testing for Functional Coverage (Using Behavioral Simulations):-</b>
@@ -191,7 +192,8 @@ endmodule
 
 Running Simulations:-
 
-![image](https://github.com/aryapandit200408/system_design_in_verilog/assets/115896451/ddee1666-c415-4277-8854-a6466cb47883)
+![image](https://github.com/aryapandit200408/FSMs_in_Verilog/assets/115896451/c61ffb90-57c5-4b38-b0d2-93e340ca6960)
+
 
 
 

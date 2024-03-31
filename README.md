@@ -9,5 +9,6 @@
 
 3. [Bus Based System Design in Verilog](https://github.com/aryapandit200408/FSMs_in_Verilog/blob/main/bus_based_system.md)
 
+4. [Serial_Adder_System_Design in Verilog](https://github.com/aryapandit200408/Simple_System_Design_in_Verilog/blob/main/serial_adder_system.md)
 
 ##### Made using Verilog by Arya Pandit

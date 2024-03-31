@@ -2,7 +2,7 @@
 ## Design of a Serial_Adder system in Verilog
 
 <b>Aim</b>: To design and implement a Serial-Adder system in Verilog
-[click for link to the code] (https://github.com/aryapandit200408/Simple_System_Design_in_Verilog/blob/main/serial_adder_system.v)
+[click for link to the code](https://github.com/aryapandit200408/Simple_System_Design_in_Verilog/blob/main/serial_adder_system.v)
 
 <div align="center">
 

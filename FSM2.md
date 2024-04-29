@@ -25,7 +25,7 @@ An illustration of the FSM
 For this purpose we employ one hot encoding scheme. Let the states be T1, T2, T3, T4 etc
 
 <b>Design:-</b>
-We seperate athe design into a Control Unit (FSM) and Logic Unit. The Control Unit (CU) shall control the FSM and the Logic Unit (LU) shall output the value of S = R[0] | R[3] into CU. The CU in-turn shall input the state T into LU.
+
 
 The Control Unit:
 
